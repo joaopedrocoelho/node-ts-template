@@ -1,0 +1,14 @@
+{
+  "name": "node-ts-template",
+  "version": "1.0.0",
+  "description": "A starter for node (^18.0.0) projects with typescript",
+  "files": [
+    "index.js",
+    "package.json",
+    "tsconfig.json",
+    "postinstall.js",
+    "src",
+    "package-lock.json"
+  ],
+  "postinstall": "node postinstall.js"
+}
