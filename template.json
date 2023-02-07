@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-template",
+  "name": "node18-ts",
   "version": "1.0.0",
   "description": "A starter for node (^18.0.0) projects with typescript",
   "files": [
