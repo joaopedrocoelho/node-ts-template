@@ -1,9 +1,12 @@
 {
   "name": "node18-ts",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+     "node18-ts": "postinstall.cjs"
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
