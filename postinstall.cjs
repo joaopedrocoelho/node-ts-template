@@ -31,7 +31,7 @@ fs.readdirSync(templatePath)
   .filter((file) => file !== 'template.json' && file !== 'postinstall.cjs')
   .forEach(copyFile);
 
-exec('npm install', (error, stdout, stderr) => {
+exec('npm install', { cwd: targetPath },  (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;
